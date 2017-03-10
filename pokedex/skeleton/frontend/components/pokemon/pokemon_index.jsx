@@ -11,9 +11,8 @@ class PokemonIndex extends React.Component {
 
   render() {
     let {pokemon} = this.props;
-    console.log(this.props);
     return (
-      <div>
+      <div className="content">
         <div className={"poke-list"}>
           <ul>
             {pokemon.map((poke, idx) => (
